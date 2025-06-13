@@ -24,7 +24,7 @@ Une application mobile Flutter conçue pour gérer un espace de coworking : rés
 ### Étapes
 
 ```bash
-git clone https://github.com/votre-utilisateur/nom-du-repo.git
-cd nom-du-repo
+git clone https://github.com/Codex099/Co_Working-space.git
+cd Co_Working-space
 flutter pub get
 flutter run
