@@ -23,7 +23,7 @@ class _ReservationsScreenState extends State<ReservationsScreen> {
 
   Future<void> fetchReservations() async {
     final prefs = await SharedPreferences.getInstance();
-    final userId = 1;
+    final userId = prefs.getInt('user_id');
     if (userId == null) return;
 
     final url = Uri.parse('http://localhost:5000/reservations/user/$userId');
