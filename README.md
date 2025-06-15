@@ -1,16 +1,30 @@
-# flutter_projet_tutore
+# 🏢 Coworking Space App – Flutter Frontend
 
-A new Flutter project.
+Une application mobile Flutter conçue pour gérer un espace de coworking : réservations de salles, gestion des utilisateurs, calendrier et plus encore.
 
-## Getting Started
+## 📱 Fonctionnalités principales
 
-This project is a starting point for a Flutter application.
+- 🧑‍💼 Authentification (connexion/inscription)
+- 🗓️ Réservation de salles avec calendrier
+- 📍 Visualisation des emplacements et salles disponibles
+- 💳 Historique des réservations et paiements
+- 🔔 Notifications de rappels
+- 🎨 Interface utilisateur moderne et responsive
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🚀 Installation
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Prérequis
+
+- [Flutter SDK](https://flutter.dev/docs/get-started/install)
+- Android Studio ou VS Code avec les plugins Flutter
+- Un émulateur ou un appareil physique
+
+### Étapes
+
+```bash
+git clone https://github.com/Codex099/Co_Working-space.git
+cd Co_Working-space
+flutter pub get
+flutter run
